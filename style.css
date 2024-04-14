@@ -1,0 +1,65 @@
+body{
+    background-color: #407BFF1F;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: #8B8B8B;
+    padding: 40px 0px;
+}
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    color: #000000;
+    letter-spacing: 0;
+}
+
+h2{
+    color: #000000;
+    font-size: 16px;
+    padding-top: 50px;
+}
+
+.rectangle{
+    background-color: #407BFF;
+    width: 60px;
+    height: 2px;
+}
+
+.icons{
+    padding: 10px;
+    justify-content: center; 
+    align-items: center;
+}
+
+.icon{
+    background-color: #FAFAFA;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    border-radius: 10px;
+    margin: 15px;
+    font-size: 13px;
+    padding: 10px;
+}
+p{
+    font-size: 16px;
+    padding: 10px;
+}
+.button a {
+    text-decoration-line: none;
+    background-color: #407BFF;
+    color: #FAFAFA;
+    padding: 11px 30px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.pohoda a{ 
+    background-color: #8B8B8B;
+}
+
+.button{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
