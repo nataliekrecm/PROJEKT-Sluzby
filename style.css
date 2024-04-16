@@ -10,8 +10,9 @@ h1{
     font-size: 28px;
     color: #000000;
     letter-spacing: 0;
-}
+    
 
+}
 h2{
     color: #000000;
     font-size: 16px;
@@ -24,12 +25,20 @@ h2{
     height: 2px;
 }
 
-.icons{
-    padding: 10px;
-    justify-content: center; 
-    align-items: center;
+.button a {
+    text-decoration-line: none;
+    background-color: #407BFF;
+    color: #FAFAFA;
+    padding: 11px 30px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 10px; 
+    
 }
-
+.pohoda a{ 
+    background-color: #8B8B8B;
+}
 .icon{
     background-color: #FAFAFA;
     display: flex;
@@ -40,26 +49,75 @@ h2{
     font-size: 13px;
     padding: 10px;
 }
+
+.icons{
+    padding: 10px;
+
+}
+
 p{
     font-size: 16px;
     padding: 10px;
+
 }
-.button a {
-    text-decoration-line: none;
-    background-color: #407BFF;
-    color: #FAFAFA;
-    padding: 11px 30px;
-    border-radius: 30px;
-    font-size: 14px;
-    font-weight: 300;
+.text2{
+    display: none;
 }
 
-.pohoda a{ 
-    background-color: #8B8B8B;
-}
-
-.button{
+    @media screen  and (min-width: 640px) {
+  .button{
     display: flex;
     justify-content: center; 
     align-items: center;
+
+  }
+  .info{
+    display: flex;
+
+  }
+
+
+.icon {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .icons {
+    max-width: 100%; 
+    max-height: 100%; 
+}
+}
+
+@media screen  and (min-width: 1100px){
+body{
+    text-align: left;
+    margin: 50px;
+} 
+.p{
+    float: left;
+}
+.first img {
+    float: right;
+    margin-left: 20px;
+  }
+  .button {
+    float: left; 
+
+  }
+.text2 {
+    display: block;
+}
+.text1{
+    display: none;
+}
+  .second{
+    clear:both;
+    display: flex;
+    
+  }
+
+  .third{
+    display: flex;
+  }
 }
